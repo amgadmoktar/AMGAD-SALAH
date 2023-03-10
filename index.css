@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ font-family: 'Poppins', sans-serif;
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+ scroll-behavior: smoth ;
+}
+
+
+header{
+    background-color: #f80303;
+    padding: 10px 50px;
+    border-radius: 15px;
+    width: 100%;
+    min-height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 25px rgba(1 1 1 /70%);
+    transition: 0.7s ease ;
+
+
+
+}
+.logoo{
+width: 50px;
+background-color: #f80303;
+align-items: center;
+box-shadow: 0 5px 25px rgba(1 1 1 /70%);
+box-shadow: #f80303;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-left:  10px;
+}
+
+.card:hover{
+    background-color: #f80303;
+    box-shadow: 0 5px 25px rgba(1 1 1 /70%);
+
+}
+
+
+
+
+.logo
+{ 
+    text-decoration:none;
+    color:#e8dede;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    transition: 0.7s ease ;
+
+}
+
+.logo:hover{
+    
+    box-shadow: 0 5px 25px rgba(1 1 1 /70%);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    transform: 1.1s;
+    
+
+
+    
+
+}
+
+
+
+
+.navicon a{
+
+    text-decoration:none;
+    color: #f5f4f4;
+    font-weight:500;
+    font-size: 0.9em;
+    padding-left: 30px;
+    transition: 0.7s ease ;
+    border-radius: 15px;
+
+}
+
+
+
+
+.navicon a:hover{
+    color: #efeded;
+    display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+margin-bottom: 30px;
+
+}
+
+.section{
+    padding: 100px 200px;
+    
+}
+
+.main{
+
+width: 100%;
+min-height: 100vh;
+background:url(pic/background.jpg);
+display: flex;
+align-items:center;
+background-size:contain;
+background-position:center;
+background-attachment: fixed;
+
+
+
+
+}
+.main h2{
+    text-transform:uppercase;
+    color:#f80303;
+    font-size: 1;
+    font-weight: 600;
+    
+    
+}
+.main h2 span{
+
+    display: inline-block;
+    margin-top: 10px;
+    color:#e8dede;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 30px;
+    
+}
+
+
+.main h3{
+    
+
+    color:#efeded;
+    font-size: 1em ;
+    font-weight: 500; 
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.main_bton{
+color:#e8dede;
+background-color: #f80303;
+text-decoration:none;
+font-size: 1.1;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 30px;
+transition: 0.7s ease-in-out;
+
+
+
+
+}
+.main_bton:hover{
+
+background-color:azure;
+
+transform: 1.1s;
+
+}
+
+.social a {
+    color: #f80303 ;
+    font-size: 1.7em;
+    padding-right: 25px;
+    
+
+}
+
+.cards{
+
+    background-color: #f80303;
+    padding-left: 30px;
+    transition: 0.7s ease ;
+    border-radius: 15px;
+
+}
+
+
+
+.title {
+    
+    display: flex;
+    color:#e8dede;
+    font-size: size 2.2em;
+    margin-bottom: 30px;
+    font-weight:800;
+
+
+}
+
+.content{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+
+.card{
+    color:#e8dede;
+    width: 16.20em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.7s ease;
+
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+    
+}
+
+.icon{
+    
+    color:#e8dede;
+    font-size:2em;
+    text-align:center
+
+}
+
+
+.info{
+    text-align: center;
+}
+
+
+
+.info h3{
+
+    color:#e8dede
+    margin 10px;
+}
+
+
+
+.footer{
+    padding: 1.3mm;
+    display: flex;
+    justify-content:space-between;
+    background: white;
+}
+
+
+.footer .media a{
+    color:#f80303;
+    padding: 0 12px 0 0;
+    font-size: 1.3;
+}
+
+
+
+
+
